@@ -1,1 +1,4 @@
-
+before revision:26308eb
+fixed revision:66fa4a5
+buggy locations:
+file:src/theory/strings/theory_strings_type_rules.cpp; method:TypeNode StringStrToBoolTypeRule::computeType(NodeManager* nodeManager, TNode n, bool check, std::ostream* errOut)
