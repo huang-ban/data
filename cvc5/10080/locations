@@ -1,1 +1,4 @@
-
+before revision: c8feb5f
+fixed revision:cef9d27
+buggy locations:
+file:src/preprocessing/passes/int_to_bv.cpp; method:Node IntToBV::intToBV(TNode n, NodeMap& cache)
