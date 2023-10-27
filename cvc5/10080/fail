@@ -1,1 +1,10 @@
-
+(set-option :produce-models true)
+(set-logic QF_LIA)
+(declare-const x Int)
+(declare-const y Int)
+(declare-const z Int)
+(declare-const b Bool)
+(assert (> y 0))
+(assert (= z (ite (> x y) x (+ x y))))
+(check-sat)
+(get-model)
