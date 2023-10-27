@@ -1,1 +1,1 @@
-
+./cvc5 ./small.smt2 --check-models
