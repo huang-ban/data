@@ -1,1 +1,5 @@
-
+before revision:be94d4b
+fixed revision:08f3ed6
+buggy locations:
+file:src/smt/print_benchmark.cpp; method:void PrintBenchmark::printAssertions(std::ostream& out, const std::vector<Node>& defs, const std::vector<Node>& assertions)
+file:src/smt/print_benchmark.cpp; method:void PrintBenchmark::getConnectedSubfieldTypes(TypeNode tn, std::vector<TypeNode>& connectedTypes, std::unordered_set<TypeNode>& processed)
