@@ -1,1 +1,5 @@
-
+before revision:ccc6d2c
+fixed revision:82b6f8b
+buggy locations:
+file:src/theory/arith/arith_rewriter.cpp; method:RewriteResponse ArithRewriter::rewriteDiv(TNode t, bool pre)
+file:src/theory/arith/arith_rewriter.cpp; method:RewriteResponse ArithRewriter::rewriteToReal(TNode t)
