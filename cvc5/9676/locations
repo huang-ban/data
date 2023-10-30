@@ -1,1 +1,4 @@
-
+before revision:6fb78cd
+fixed revision:88b07f1
+buggy locations:
+file:src/parser/smt2/smt2.cpp; method:Term Smt2State::applyParseOp(const ParseOp& p, std::vector<Term>& args)
