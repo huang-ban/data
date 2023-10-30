@@ -1,1 +1,10 @@
-
+before revision:36cfd79
+fixed revision:9000c1d
+buggy locations:
+file:src/api/cpp/cvc5.cpp; method:Term Solver::mkFloatingPointPosInf(uint32_t exp, uint32_t sig) const
+file:src/api/cpp/cvc5.cpp; method:Term Solver::mkFloatingPointNegInf(uint32_t exp, uint32_t sig) const
+file:src/api/cpp/cvc5.cpp; method:Term Solver::mkFloatingPointNaN(uint32_t exp, uint32_t sig) const
+file:src/api/cpp/cvc5.cpp; method:Term Solver::mkFloatingPointPosZero(uint32_t exp, uint32_t sig) const
+file:src/api/cpp/cvc5.cpp; method:Term Solver::mkFloatingPointNegZero(uint32_t exp, uint32_t sig) const
+file:src/api/cpp/cvc5.cpp; method:Term Solver::mkFloatingPoint(uint32_t exp, uint32_t sig, const Term& val) const
+file:src/api/cpp/cvc5.cpp; method:Term Solver::mkFloatingPoint(const Term& sign, const Term& exp, const Term& sig) const
