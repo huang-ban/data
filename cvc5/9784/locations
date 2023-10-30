@@ -1,1 +1,4 @@
-
+before revision:3309ce7
+fixed revision:9668d6e
+buggy locations:
+file:src/theory/strings/sequences_rewriter.cpp; method:Node SequencesRewriter::rewriteLoopRegExp(TNode node)
