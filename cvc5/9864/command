@@ -1,1 +1,1 @@
-
+./bin/cvc5 test.smt2
