@@ -1,1 +1,3 @@
 timeout 120s cvc5 small.smt2
+timeout 120s cvc5-2023-03-30-x86_64-Linux-production small.smt2
+time cvc4-1.8-x86_64-linux-opt small.smt2
