@@ -1,1 +1,4 @@
-
+before revision:0da85f1
+fixed revision:cbe71e7
+buggy locations:
+file:src/theory/fp/theory_fp.cpp; method:Node TheoryFp::getValue(TNode node)
