@@ -1,1 +1,4 @@
-
+before revision:b008ced
+fixed revision:ff9caf3
+buggy locations:
+file:src/theory/quantifiers/ematching/inst_match_generator_simple.cpp; method:void InstMatchGeneratorSimple::addInstantiations(InstMatch& m, uint64_t& addedLemmas, size_t argIndex, TNodeTrie* tat)
