@@ -1,1 +1,4 @@
-
+before revision:b8e2b28
+fixed revision:1bd2dc2
+buggy locations:
+file:src/parser/smt2/smt2_cmd_parser.cpp; method:std::unique_ptr<Command> Smt2CmdParser::parseNextCommand()
