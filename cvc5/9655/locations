@@ -1,1 +1,5 @@
-
+before revision:c957d0c
+fixed revision:d284eca
+buggy locations:
+file:src/parser/smt2/smt2.cpp; method:Term Smt2State::mkIndexedConstant(const std::string& name, const std::vector<uint32_t>& numerals)
+file:src/parser/smt2/smt2_term_parser.cpp; method:Term Smt2TermParser::parseTerm()
