@@ -1,1 +1,9 @@
+(declare-const a Float32)
+(declare-const b Float32)
 
+(assert (> a (_ NaN 8)))
+(assert (>= b a))
+
+(check-sat)
+
+(exit)
