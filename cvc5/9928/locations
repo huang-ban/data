@@ -1,1 +1,4 @@
-
+before revision:918b21d
+fixed revision:74607a8
+buggy locations:
+file:src/smt/print_benchmark.cpp; method:void PrintBenchmark::printAssertions(std::ostream& out, const std::vector<Node>& defs, const std::vector<Node>& assertions)
