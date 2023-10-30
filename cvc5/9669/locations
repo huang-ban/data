@@ -1,1 +1,6 @@
-
+before revision:b7f82a4
+fixed revision:f9450c6
+buggy locations:
+file:src/prop/sat_proof_manager.cpp; method:void SatProofManager::endResChain(const Minisat::Clause& clause)
+file:src/prop/sat_proof_manager.cpp; method:void SatProofManager::endResChain(Node conclusion, const std::set<SatLiteral>& conclusionLits)
+file:src/prop/sat_proof_manager.h; method:void endResChain(Node conclusion, const std::set<SatLiteral>& conclusionLits)
