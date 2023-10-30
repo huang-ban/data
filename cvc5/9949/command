@@ -1,1 +1,2 @@
-
+cvc5 -q bug.smt2
+cvc5 -q --arith-rewrite-equalities bug.smt2
