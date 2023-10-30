@@ -1,1 +1,5 @@
-
+before revision:976eba9
+fixed revision:0a398b0
+buggy locations:
+file:src/theory/quantifiers/cegqi/vts_term_cache.cpp; method:Node VtsTermCache::rewriteVtsSymbols(Node n)
+file:src/theory/quantifiers/instantiate.cpp; method:bool Instantiate::addInstantiationInternal(Node q, std::vector<Node>& terms, InferenceId id, Node pfArg, bool doVts)
