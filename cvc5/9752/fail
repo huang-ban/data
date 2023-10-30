@@ -1,1 +1,12 @@
-
+(set-logic ALL)
+(define-sort FP () (_ FloatingPoint 8 24))
+(declare-const c17 Real)
+(declare-const c62 (_ BitVec 1))
+(define-fun t107 () FP (fp #b0 #b00000000 #b00000000000000000000000))
+(define-fun t110 () FP (fp #b0 #b00000000 #b00000000000000111111100))
+(declare-const c137 (Array FP Real))
+(define-fun t223 () FP ((_ to_fp 8 24) roundNearestTiesToEven c62))
+(define-fun t428 () FP (fp.fma roundNearestTiesToAway t107 t110 t223))
+(assert (not (= c17 (select c137 t428))))
+(check-sat)
+(exit)
