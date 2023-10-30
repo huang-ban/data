@@ -1,1 +1,3 @@
-
+(declare-const f (Int Int) Int)
+(check-sat)
+(exit)
