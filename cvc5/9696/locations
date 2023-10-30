@@ -1,1 +1,5 @@
-
+before revision:7e22444
+fixed revision:d9ac474
+buggy locations:
+file:src/theory/strings/base_solver.cpp; method:bool BaseSolver::isCardinalityOk(size_t typeCardSize, Node lr, size_t eqcCount, size_t& lenNeed) const
+file:src/theory/strings/theory_strings.cpp; method:bool TheoryStrings::collectModelInfoType(TypeNode tn, std::unordered_set<TypeNode>& toProcess, const std::map<TypeNode, std::unordered_set<Node> >& repSet, TheoryModel* m)
