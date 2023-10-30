@@ -1,1 +1,5 @@
-
+before revision:a60c3ce
+fixed revision:fb5a31b
+buggy locations:
+file:src/parser/symbol_table.cpp; method:Sort SymbolTable::Implementation::lookupType(const string& name) const
+file:src/parser/symbol_table.cpp; method:Sort SymbolTable::Implementation::lookupType(const string& name, const vector<Sort>& params) const
