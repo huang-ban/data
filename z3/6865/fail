@@ -1,1 +1,4 @@
-
+(declare-const a Bool)
+(declare-const b Bool)
+(assert (exists ((c Bool) (d Bool) (e Bool)) (and e (or (= a c) (= b d)) (= a c) (= b d))))
+(apply qe2)
