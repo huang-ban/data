@@ -1,1 +1,5 @@
-
+before revision:11ab583
+fixed revision:8c00181
+buggy locations:
+file:src/qe/qsat.cpp; method:void assert_expr(expr *e)
+file:src/qe/qsat.cpp; method:void assert_blocking_fml(expr* e)
