@@ -1,0 +1,1 @@
+./cvc5 bug.smt2 --mbqi --nl-cov
