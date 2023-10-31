@@ -1,1 +1,6 @@
-
+before revision:df77541
+fixed revision:4d44e60
+buggy locations:
+file:src/cmd_context/cmd_context.cpp; method:void cmd_context::reset_cmds()
+file:src/cmd_context/cmd_context.cpp; method:void cmd_context::finalize_cmds()
+file:src/cmd_context/cmd_context.cpp; method:void cmd_context::reset(bool finalize)
