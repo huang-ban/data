@@ -1,1 +1,4 @@
-
+before revision:ba881d9
+fixed revision:f678861
+buggy locations:
+file:src/math/lp/monomial_bounds.cpp; method:bool monomial_bounds::propagate_value(dep_interval& range, lpvar v, unsigned p)
