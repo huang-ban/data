@@ -1,1 +1,4 @@
-
+before revision:a3e429c
+fixed revision:2384a23
+buggy locations:
+file:src/preprocessing/passes/learned_rewrite.cpp; method:Node LearnedRewrite::rewriteLearned(Node n, arith::BoundInference& binfer, const std::vector<Node>& learnedLits, std::unordered_set<Node>& lems)
