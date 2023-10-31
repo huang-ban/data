@@ -1,1 +1,6 @@
-
+before revision:7b513b4
+fixed revision:ccb250c
+buggy locations:
+file:src/smt/theory_lra.cpp; method:void mk_power_axiom(expr* p, expr* x, expr* y)
+file:src/smt/theory_lra.cpp; method:final_check_status eval_unsupported(expr* e)
+file:src/smt/theory_lra.cpp; method:final_check_status final_check_eh()
