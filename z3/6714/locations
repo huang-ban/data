@@ -1,1 +1,5 @@
-
+before revision:6c24a70 
+fixed revision:2e441e3
+buggy locations:
+file:src/ast/array_decl_plugin.cpp; method:func_decl * array_decl_plugin::mk_array_ext(unsigned arity, sort * const * domain, unsigned i)
+file:src/ast/simplifiers/dependent_expr_state.cpp; method:void dependent_expr_state::freeze_recfun()
