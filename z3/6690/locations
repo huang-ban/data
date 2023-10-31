@@ -1,1 +1,5 @@
-
+before revision:6249078 
+fixed revision:b75d81f
+buggy locations:
+file:src/sat/smt/arith_internalize.cpp; method:void solver::found_underspecified(expr* n)
+file:src/smt/theory_lra.cpp; method:void found_underspecified(expr* n)
