@@ -1,1 +1,15 @@
+(declare-fun c (Int) Int)
+(define-fun e ((f Int) (a Int) (b Int)) Int (ite (= b 0) 0 (rem a b)))
+(define-fun g ((c Int) (a Int) (b Int)) Int (ite (= b 0) a c))
+(define-fun h ((f Int) (a Int) (b Int)) Int (g 0 (e f a (c b)) 0))
+(assert (exists ((k Int)) (and (< k 0) (= k (h 1 k 0)))))
+(check-sat)
 
+(reset)
+
+(define-fun c ((x Int)) Int (- 2))
+(define-fun e ((f Int) (a Int) (b Int)) Int (ite (= b 0) 0 (rem a b)))
+(define-fun g ((c Int) (a Int) (b Int)) Int (ite (= b 0) a c))
+(define-fun h ((f Int) (a Int) (b Int)) Int (g 0 (e f a (c b)) 0))
+(assert (exists ((k Int)) (and (< k 0) (= k (h 1 k 0)))))
+(check-sat)
