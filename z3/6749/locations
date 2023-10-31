@@ -1,1 +1,4 @@
-
+before revision:06a8987
+fixed revision:ab4b7c5
+buggy locations:
+file:src/smt/theory_array_base.cpp; method:model_value_proc * theory_array_base::mk_value(enode * n, model_generator & mg)
