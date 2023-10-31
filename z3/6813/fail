@@ -1,1 +1,4 @@
-
+(set-option :proof true)
+(declare-fun f (Int Int) Int)
+(assert (not (forall ((a Int)) (not (forall ((b Int)) (= a (f b (f a a))))))))
+(check-sat)
