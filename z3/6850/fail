@@ -1,1 +1,7 @@
-
+(set-logic HORN)
+(declare-datatype |note the spaces| ((|note the spaces| (x Int) )))
+(declare-fun P (|note the spaces|) Bool)
+(assert (forall ((a |note the spaces|)) (=> (>= (x a) 0) (P a))))
+(assert (forall ((a |note the spaces|)) (=> (and (P a) (< (x a) 0)) false)))
+(check-sat)
+(get-model)
