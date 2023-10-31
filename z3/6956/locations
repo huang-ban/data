@@ -1,1 +1,4 @@
-
+before revision:37fe9cc
+fixed revision:11ab583
+buggy locations:
+file:src/smt/smt_consequences.cpp; method:lbool context::get_consequences(expr_ref_vector const& assumptions0, expr_ref_vector const& vars0, expr_ref_vector& conseq, expr_ref_vector& unfixed)
