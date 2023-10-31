@@ -1,1 +1,4 @@
-
+(assert (forall ((i Int)) (! (<= 0 i) )))
+(check-sat)
+(get-objectives)
+(check-sat) ; removing this leads to no crash
