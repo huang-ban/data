@@ -1,1 +1,4 @@
-
+(declare-fun x () Int)
+(declare-fun y () Int)
+(declare-fun z () Int)
+(get-interpolant (= y (* 2 x)) (= y (+ (* 2 z) 1)))
