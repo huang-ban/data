@@ -1,1 +1,4 @@
-
+before revision:f4176a5
+fixed revision:8a5d0d1
+buggy locations:
+file:src/theory/difficulty_manager.cpp; method:void DifficultyManager::notifyLemma(Node n, bool inFullEffortCheck)
