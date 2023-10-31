@@ -1,1 +1,3 @@
-
+(set-option :proof true)
+(assert (not (forall ((a Int)) false)))
+(check-sat-using purify-arith)
