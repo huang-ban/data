@@ -1,1 +1,3 @@
-
+(set-option :sat.threads 2)
+(assert-soft false)
+(check-sat)
