@@ -1,1 +1,4 @@
-
+before revision:6df297c
+fixed revision:72c4d1e
+buggy locations:
+file:src/theory/arith/arith_rewriter.cpp; method:RewriteResponse ArithRewriter::postRewriteTerm(TNode t)
