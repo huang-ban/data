@@ -1,1 +1,5 @@
-
+before revision:9f3c36e
+fixed revision:dc9e946
+buggy locations:
+file:src/preprocessing/passes/learned_rewrite.cpp; method:PreprocessingPassResult LearnedRewrite::applyInternal(AssertionPipeline* assertionsToPreprocess)
+file:src/preprocessing/passes/non_clausal_simp.cpp; method:PreprocessingPassResult NonClausalSimp::applyInternal(AssertionPipeline* assertionsToPreprocess)
