@@ -1,1 +1,4 @@
-
+before revision:267e9e8
+fixed revision:adbee0c
+buggy locations:
+file:src/smt/smt_enode.cpp; method:enode * enode::init(ast_manager & m, void * mem, app2enode_t const & app2enode, app * owner, unsigned generation, bool suppress_args, bool merge_tf, unsigned iscope_lvl, bool cgc_enabled, bool update_children_parent)
