@@ -1,1 +1,9 @@
+(declare-fun a () Int)
+(assert (distinct a 0 (div (rem (div a a) a) a)))
+(check-sat)
 
+(reset)
+
+(define-fun a () Int (- 2))
+(assert (distinct a 0 (div (rem (div a a) a) a)))
+(check-sat)
