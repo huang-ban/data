@@ -1,1 +1,5 @@
-
+before revision:9c149b2
+fixed revision:6796eff
+buggy locations:
+file:src/preprocessing/passes/learned_rewrite.cpp; method:Node LearnedRewrite::rewriteLearnedRec(Node n, arith::BoundInference& binfer, const std::vector<Node>& learnedLits, std::unordered_set<Node>& lems, std::unordered_map<TNode, Node>& visited)
+file:src/preprocessing/passes/learned_rewrite.cpp; method:Node LearnedRewrite::rewriteLearned(Node n, arith::BoundInference& binfer, const std::vector<Node>& learnedLits, std::unordered_set<Node>& lems)
