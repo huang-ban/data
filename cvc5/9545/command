@@ -1,1 +1,1 @@
-
+cvc5 --miniscope-quant=agg -q small.smt2
