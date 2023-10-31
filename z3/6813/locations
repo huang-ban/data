@@ -1,1 +1,9 @@
-
+before revision:3849f66
+fixed revision:8a91398
+buggy locations:
+file:src/ast/ast.cpp; method:proof * ast_manager::mk_transitivity(proof * p1, proof * p2)
+file:src/ast/euf/euf_etable.cpp; method:enode_bool_pair etable::insert(enode * n)
+file:src/ast/euf/euf_etable.cpp; method:void etable::erase(enode * n)
+file:src/ast/normal_forms/nnf.cpp; method:void process(quantifier * q, expr_ref & r, proof_ref & p)
+file:src/ast/normal_forms/nnf.cpp; method:bool process_default(app * t, frame & fr)
+file:src/sat/smt/pb_card.cpp; method:bool card::init_watch(solver_interface& s)
