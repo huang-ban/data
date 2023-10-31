@@ -1,1 +1,6 @@
-
+before revision:d6c719a
+fixed revision:7d0db1a
+buggy locations:
+file:src/theory/quantifiers/quantifiers_rewriter.cpp; method:RewriteResponse QuantifiersRewriter::preRewrite(TNode in)
+file:src/theory/quantifiers/quantifiers_rewriter.cpp; method:RewriteResponse QuantifiersRewriter::postRewrite(TNode in)
+file:src/theory/substitutions.cpp; method:Node SubstitutionMap::apply(TNode t, Rewriter* r, std::set<TNode>* tracker, const ShouldTraverseCallback* stc)
