@@ -1,1 +1,4 @@
-
+before revision:cb041c1 
+fixed revision:ec1480b
+buggy locations:
+file:src/smt/theory_arith_core.h; method:void theory_arith<Ext>::found_underspecified_op(app * n)
