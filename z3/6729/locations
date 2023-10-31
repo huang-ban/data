@@ -1,1 +1,6 @@
-
+before revision:06ea765
+fixed revision:a68f91f
+buggy locations:
+file:src/ast/rewriter/seq_rewriter.cpp; method:br_status seq_rewriter::mk_re_range(expr* lo, expr* hi, expr_ref& result)
+file:src/ast/rewriter/seq_rewriter.cpp; method:br_status seq_rewriter::reduce_re_is_empty(expr* r, expr_ref& result)
+file:src/ast/rewriter/seq_rewriter.cpp; method:br_status seq_rewriter::mk_eq_core(expr * l, expr * r, expr_ref & result)
