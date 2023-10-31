@@ -1,1 +1,8 @@
-
+(set-logic AUFLIA)
+(declare-const i3 Int)
+(declare-const i6 Int)
+(declare-const i4 Int)
+(assume (= i4 1))
+(assert(= i3 i6))
+(check-sat)
+(reset)
