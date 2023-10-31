@@ -1,1 +1,4 @@
-
+before revision:b451735
+fixed revision:7221c84
+buggy locations:
+file:src/math/lp/nla_core.cpp; method:bool core::check_monic(const monic& m) const
