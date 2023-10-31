@@ -1,1 +1,5 @@
-
+(set-logic LIA)
+(declare-fun d () Int)
+(assert b)
+(assume d)
+(check-sat)
