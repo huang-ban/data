@@ -1,1 +1,4 @@
-
+before revision:b783879
+fixed revision:1a70ac7
+buggy locations:
+file:src/ast/converters/expr_inverter.cpp; method:bool operator()(func_decl* f, unsigned num, expr* const* args, expr_ref& r)
