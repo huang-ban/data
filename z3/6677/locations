@@ -1,1 +1,4 @@
-
+before revision:98d3fab 
+fixed revision:bb44b91
+buggy locations:
+file:src/cmd_context/cmd_context.cpp; method:bool cmd_context::try_mk_pdecl_app(symbol const & s, unsigned num_args, expr * const * args, unsigned num_indices, parameter const * indices, expr_ref & r)
