@@ -1,1 +1,4 @@
-
+before revision:ccc4f2d
+fixed revision:58a2a9c
+buggy locations:
+file:src/parsers/smt2/smt2parser.cpp; method:bool sync_after_error()
