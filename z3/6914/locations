@@ -1,1 +1,4 @@
-
+before revision:30d1800
+fixed revision:eea9c0b
+buggy locations:
+file:src/smt/smt_model_finder.cpp; method:void cleanup_instantiation_sets()
