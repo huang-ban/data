@@ -1,1 +1,5 @@
-
+before revision:33c35b0
+fixed revision:b04e48f
+buggy locations:
+file:src/cmd_context/pdecl.cpp; method:format * pp(smt2_pp_environment& env, pdecl_manager const & m)
+file:src/cmd_context/pdecl.cpp; method:format * pp(smt2_pp_environment& env, pdecl_manager const & m)
