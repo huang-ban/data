@@ -1,1 +1,4 @@
-
+before revision:50717fb
+fixed revision:1be6920
+buggy locations:
+file:src/qe/mbp/mbp_basic_tg.cpp; method:bool apply()
