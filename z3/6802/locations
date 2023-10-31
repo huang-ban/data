@@ -1,1 +1,5 @@
-
+before revision:dc0887d
+fixed revision:241e845
+buggy locations:
+file:src/ast/arith_decl_plugin.cpp; method:inline func_decl * arith_decl_plugin::mk_func_decl(decl_kind k, bool is_real)
+file:src/ast/arith_decl_plugin.cpp; method:func_decl* arith_util::mk_ipower0()
