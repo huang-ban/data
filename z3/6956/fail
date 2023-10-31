@@ -1,1 +1,6 @@
-
+(set-logic ALL)
+(declare-const v String)
+(declare-const w String)
+(declare-const x String)
+(declare-const z String)
+(get-consequences (v w) (w z))
