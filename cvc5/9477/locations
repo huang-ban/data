@@ -1,1 +1,6 @@
-
+before revision:ba674f5
+fixed revision:efd19e9
+buggy locations:
+file:src/theory/quantifiers/inst_strategy_mbqi.cpp; method:void InstStrategyMbqi::process(Node q)
+file:src/theory/quantifiers/inst_strategy_mbqi.cpp; method:Node InstStrategyMbqi::convertToQuery(Node t, std::unordered_map<Node, Node>& cmap, std::map<TypeNode, std::unordered_set<Node> >& freshVarType)
+file:src/theory/quantifiers/inst_strategy_mbqi.cpp; method:Node InstStrategyMbqi::convertFromModel(Node t, std::unordered_map<Node, Node>& cmap, const std::map<Node, Node>& mvToFreshVar)
