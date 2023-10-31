@@ -1,1 +1,4 @@
-
+before revision:0648097
+fixed revision:0d3daa0
+buggy locations:
+file:src/cmd_context/extra_cmds/proof_cmds.cpp; method:void add_literal(expr* e) override
