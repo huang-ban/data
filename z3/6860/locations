@@ -1,1 +1,5 @@
-
+before revision:50717fb
+fixed revision:51df7b7
+buggy locations:
+file:src/ast/rewriter/seq_axioms.cpp; method:void axioms::last_indexof_axiom(expr* i)
+file:src/math/lp/int_solver.cpp; method:lia_move int_solver::patcher::patch_basic_columns()
