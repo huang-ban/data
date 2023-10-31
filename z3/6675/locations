@@ -1,1 +1,7 @@
-
+before revision:e822243 
+fixed revision:eba0732
+buggy locations:
+file:src/ast/rewriter/pb2bv_rewriter.cpp; method:bool is_pb(expr* e, rational const& mul)
+file:src/cmd_context/cmd_context.cpp; method:bool cmd_context::try_mk_pdecl_app(symbol const & s, unsigned num_args, expr * const * args, unsigned num_indices, parameter const * indices, expr_ref & r)
+file:src/sat/smt/pb_solver.cpp; method:void solver::simplify()
+file:src/sat/smt/pb_solver.cpp; method:void solver::remove_unused_defs()
