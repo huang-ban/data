@@ -1,1 +1,4 @@
-
+before revision:dda9242 
+fixed revision:a8da0a6
+buggy locations:
+file:src/ast/normal_forms/nnf.cpp; method:void process(quantifier * q, expr_ref & r, proof_ref & p)
