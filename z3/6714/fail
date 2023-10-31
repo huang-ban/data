@@ -1,1 +1,4 @@
+(declare-const arr1 (Array Int Int))
+(declare-const arr2 (Array Int Int))
 
+(assert (= (div (array-ext 0 arr2) 4) (* (div (array-ext 0 arr1) 4) 2)))
