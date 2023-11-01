@@ -1,1 +1,4 @@
-
+before revision:ccb250c
+fixed revision:af9c760
+buggy locations:
+file:src/smt/theory_lra.cpp; method:void mk_idiv_mod_axioms(expr * p, expr * q)
