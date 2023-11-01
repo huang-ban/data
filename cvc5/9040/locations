@@ -1,1 +1,5 @@
-
+before revision:2cd0c9f
+fixed revision:ac6ef2f
+buggy locations:
+file:src/theory/strings/regexp_operation.cpp; method:Node RegExpOpr::intersect(Node r1, Node r2)
+file:src/theory/strings/regexp_solver.cpp; method:bool RegExpSolver::checkEqcIntersect(const std::vector<Node>& mems)
