@@ -1,1 +1,4 @@
-
+before revision:c2c26a1
+fixed revision:a9978c1
+buggy locations:
+file:src/smt/set_defaults.cpp; method:bool SetDefaults::incompatibleWithProofs(Options& opts, std::ostream& reason) const
