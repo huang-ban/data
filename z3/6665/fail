@@ -1,1 +1,7 @@
-
+(set-option :smt.threads 7)
+(define-fun a () Float16 (fp #b1 #b00000 #b0000000011))
+(define-fun l () Float16 (fp #b1 #b00000 #b0000000001))
+(declare-fun b () Float16)
+(declare-fun r () Float16)
+(assert (= l (fp.abs b) r (fp.rem a b)))
+(check-sat-using ctx-solver-simplify)
