@@ -1,1 +1,4 @@
-
+before revision:e2a0129
+fixed revision:cb4f90d
+buggy locations:
+file:src/theory/arrays/theory_arrays.cpp; method:void TheoryArrays::computeCareGraph()
