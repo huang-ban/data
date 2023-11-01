@@ -1,1 +1,1 @@
-
+for i in $(seq 1 10) ; do z3release small.smt2; done
