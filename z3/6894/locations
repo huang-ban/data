@@ -1,4 +1,0 @@
-before revision:3aea4eb
-fixed revision:50d76a2
-buggy locations:
-file:src/ast/simplifiers/solve_context_eqs.cpp; method:void solve_context_eqs::collect_nested_equalities(dependent_expr const& df, expr_mark& visited, dep_eq_vector& eqs)
