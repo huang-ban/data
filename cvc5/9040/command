@@ -1,1 +1,1 @@
-
+vc5 --re-inter-mode=all -q small.smt2
