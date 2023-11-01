@@ -1,1 +1,11 @@
-
+(declare-datatypes ((C 0)) (((C) (o))))
+(declare-datatypes ((R 0) (RB 0)) (((T) (RB (d RB))) ((RB (B C) (BT R) (RBT Int) (r R)))))
+(declare-datatypes ((B 0)) (((B (B Bool)))))
+(declare-fun v () Int)
+(declare-fun t () R)
+(declare-fun n (Int R) R)
+(declare-fun N (R) B)
+(assert (and (not ((_ is T) (n v t))) (not (B (N (BT (d (n v t))))))))
+(check-sat)
+(assert (= (n v t) (ite ((_ is T) (n 0 T)) T (RB (RB o (BT (d T)) (RBT (d T)) (r (d T)))))))
+(check-sat)
