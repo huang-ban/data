@@ -1,1 +1,4 @@
-
+before revision:b386b84
+fixed revision:996e5b1
+buggy locations:
+file:src/util/zstring.cpp; method:zstring::zstring(char const* s)
