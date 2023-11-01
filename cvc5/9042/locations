@@ -1,1 +1,5 @@
-
+before revision:3dff173
+fixed revision:709ebc2
+buggy locations:
+file:src/theory/datatypes/theory_datatypes.cpp; method:bool TheoryDatatypes::collectModelValues(TheoryModel* m, const std::set<Node>& termSet)
+file:src/theory/datatypes/theory_datatypes.cpp; method:void TheoryDatatypes::computeRelevantTerms(std::set<Node>& termSet)
