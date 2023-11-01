@@ -1,6 +1,0 @@
-before revision:95e9f1b
-fixed revision:e13b964
-buggy locations:
-file:src/theory/arith/nl/nonlinear_extension.cpp; method:NonlinearExtension::NonlinearExtension(Env& env, TheoryArith& containing)
-file:src/theory/arith/nl/nonlinear_extension.cpp; method:void NonlinearExtension::preRegisterTerm(TNode n)
-file:src/theory/arith/nl/nonlinear_extension.cpp; method:void NonlinearExtension::checkFullEffort(std::map<Node, Node>& arithModel, const std::set<Node>& termSet)
