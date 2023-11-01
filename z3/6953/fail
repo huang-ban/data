@@ -1,4 +1,0 @@
-(declare-fun a () (_ BitVec 32))
-(define-fun b () (_ BitVec 32) ((_ rotate_left 7) a))
-(assert (= b b))
-(apply bit-blast)
