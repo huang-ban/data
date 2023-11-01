@@ -1,1 +1,4 @@
-
+before revision:6324db2
+fixed revision:5b385bd
+buggy locations:
+file:src/smt/theory_bv.cpp; method:bool theory_bv::internalize_term_core(app * term)
