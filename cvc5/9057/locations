@@ -1,1 +1,4 @@
-
+before revision:16c9981
+fixed revision:84d097f
+buggy locations:
+file:src/smt/model_blocker.cpp; method:Node ModelBlocker::getModelBlocker(const std::vector<Node>& assertions, theory::TheoryModel* m, modes::BlockModelsMode mode, const std::vector<Node>& exprToBlock)
